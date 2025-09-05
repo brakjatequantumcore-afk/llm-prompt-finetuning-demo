@@ -1,29 +1,33 @@
-# LLM Prompt Engineering + Fine-Tuning Demo
+LLM Prompt Engineering + Fine-Tuning Demo
 
-Este projeto demonstra duas áreas fundamentais para engenheiros de IA modernos:
-1. **Prompt Engineering**: Uso de técnicas como *Chain-of-Thought* e *Instruction Prompting*.
-2. **Fine-Tuning**: Ajuste fino de um modelo de linguagem utilizando um dataset customizado com HuggingFace.
+This project demonstrates two fundamental areas for modern AI engineers:
 
-## Estrutura do Projeto
+Prompt Engineering: Using techniques such as Chain-of-Thought and Instruction Prompting.
 
-- `notebooks/prompt_engineering.ipynb` — Demonstração prática de construção e teste de prompts.
-- `scripts/fine_tuning.py` — Script de fine-tuning usando HuggingFace Transformers e Trainer API.
-- `data/sample_data.json` — Dataset pequeno para simulação de treinamento.
+Fine-Tuning: Performing parameter-efficient fine-tuning of a language model using a custom dataset with HuggingFace.
 
-## Como usar
+📁 Project Structure
 
-1. Instale as dependências:
-```bash
+notebooks/prompt_engineering.ipynb — Practical demonstration of prompt construction and testing.
+
+scripts/fine_tuning.py — Fine-tuning script using HuggingFace Transformers and Trainer API.
+
+data/sample_data.json — Small dataset for fine-tuning simulation.
+
+⚙️ How to Use
+
+Install the dependencies:
+
 pip install transformers datasets accelerate
-```
 
-2. Execute o fine-tuning:
-```bash
+
+Run the fine-tuning:
+
 python scripts/fine_tuning.py
-```
 
-3. Explore o notebook de prompt engineering no Jupyter.
 
-## Observação
+Explore the prompt engineering notebook with Jupyter.
 
-Este projeto roda com modelos pequenos como `distilbert-base-uncased` e pode ser executado em CPU (mais lento).
+🔍 Notes
+
+This project uses lightweight models such as distilbert-base-uncased, which can run on CPU (but slower).
